@@ -19,6 +19,54 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 25px;
     border: solid 1px black;
+    /* width: 60vw;
+    height: 60vh; */
     width: 600px;
     height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    margin-top: 40px;
+}
+
+div#0.box {
+    border-top-left-radius: 25px;
+}
+div#2.box {
+    border-top-right-radius: 25px;
+}
+div#6.box {
+    border-bottom-left-radius: 25px;
+}
+div#8.box {
+    border-bottom-right-radius: 25px;
+}
+
+.box {
+    /* height: 20vh;
+    width: 20vw; */
+    width: 198px;
+    height: 198px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#button-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    font-family: monospace;
+    background: rgb(203, 157, 245);
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    border: solid 1px black;
+    cursor: pointer;
 }
