@@ -70,3 +70,27 @@ button {
     border: solid 1px black;
     cursor: pointer;
 }
+
+#players-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+#players {
+}
+
+#player1 {
+    padding: 10px;
+}
+
+#player2 {
+    padding: 10px;
+}
+
+#announcement {
+    color: rgb(203, 157, 245);
+    font-size: 40px;
+    font-weight: 900;
+}
